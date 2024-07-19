@@ -1,0 +1,113 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    width: 100%;
+    
+    height: 60px;
+}
+
+.nav-links > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links > ul > li> a{
+    padding: 10px;
+    margin:10px;
+}
+
+.search > img{
+    width: 20px;
+}
+
+main{
+    background-image: url('assets/hero1.jpg');
+    height: 35vh;
+    color : white;
+    background-repeat: no-repeat;
+    width: 100vw;background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-content >  h1{
+    font-size: 3rem;
+}
+
+.section{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 3em 2em;
+    align-items: start;
+    justify-content: center;
+    gap:2rem;
+}
+
+.left{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 4rem 2rem;
+    flex-direction: column;
+    background-color: cadetblue;
+    color: white;
+    font-size: 1.2rem;
+    gap: 2rem;
+    width: 30%;
+    height: 500px;
+}
+.right{
+    width: 70%;
+    height: 500px;
+
+}
+
+.form-heading{
+    display: flex;
+    flex-direction: column;
+}
+.form-heading > h1{
+    margin-bottom: 1rem;
+}
+.right-form{
+    margin-top: 2em;
+}
+
+.firstRow{
+    display: flex;
+    gap: 1em;
+    
+}
+input{
+    width: 100%;
+    background-color: rgb(203, 203, 203);
+    border-radius: 5px;
+    padding: 1em ;
+    border: none;
+    outline: none;
+    margin:10px 0;
+}
+.submit-btn{
+    background-color: rgb(230, 165, 44);
+    width: auto;
+    padding: 0.5em 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
